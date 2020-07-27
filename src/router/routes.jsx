@@ -18,3 +18,7 @@ export const Route = ({ element: Component, ...rest }) => {
   };
   return <BaseRoute />;
 };
+
+export const NestedRoute = (props) => {
+  return <>{props.children}</>;
+};
